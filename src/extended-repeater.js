@@ -30,7 +30,7 @@ module.exports = function repeater(str, options) {
   for(let i = 0; i < tmp; i ++){
     res.push(s)
   }
-  return res.join(options?.separator || '+')
+  return res.join(options.separator || '+')
   // remove line with error and write your code here
 };
   
