@@ -22,7 +22,7 @@ module.exports = function repeater(str, options) {
     let tmp = options.additionRepeatTimes || 1
     for(let i = 0; i < tmp; i ++){
       add.push(op)
-      resAdd = add.join(options?.additionSeparator || '|')
+      resAdd = add.join(options.additionSeparator || '|')
     }
   }
   s += str + resAdd
